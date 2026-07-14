@@ -1,0 +1,13 @@
+{
+  "floquet_max_relative_threshold_error": 0.0010700986556104405,
+  "duffing_validation_relative_error": 1.1088541685262453e-06,
+  "duffing_relative_error_up": 0.002051284996900985,
+  "duffing_relative_error_down": 0.01239478011638247,
+  "duffing_hysteresis_area_ratio": 0.9955543977413974,
+  "adiabatic_pass_count_5pct": 0,
+  "corrected_pass_count_5pct": 1,
+  "coupled_adiabatic_optical_pass_count_5pct": 0,
+  "coupled_corrected_optical_pass_count_5pct": 1
+}
+Archived benchmark evidence: 8/8 valid
+TRIAD benchmark verification: PASS

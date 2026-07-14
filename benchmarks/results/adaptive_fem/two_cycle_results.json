@@ -1,0 +1,470 @@
+{
+  "method": "Pulsed Residual-Governed Sparsening \u2014 two-cycle evolution",
+  "cycle1": {
+    "elapsed_s": 3.4248333710002044,
+    "summary": {
+      "cycle": 1,
+      "by_scenario": {
+        "broadband_standard_8_280kHz": {
+          "cycle1_regularized": {
+            "mean_qoi_error": 0.06056586959018566,
+            "mean_field_error": 0.06063547444220533,
+            "qoi_error_49": 0.023779210558163268,
+            "field_error_49": 0.02393219736917063,
+            "best_qoi_error": 0.007729330050162872,
+            "mean_h_ratio": 8.000000000000208
+          },
+          "pulse_v0": {
+            "mean_qoi_error": 0.07754028043566405,
+            "mean_field_error": 0.07821852767053257,
+            "qoi_error_49": 0.042066957399716456,
+            "field_error_49": 0.04291768591369174,
+            "best_qoi_error": 0.009117410408590597,
+            "mean_h_ratio": 11.000000000000238
+          },
+          "snapshot": {
+            "mean_qoi_error": 0.07754203999887341,
+            "mean_field_error": 0.07811540792717445,
+            "qoi_error_49": 0.05888010340109936,
+            "field_error_49": 0.059577814136530696,
+            "best_qoi_error": 0.03620502066349371,
+            "mean_h_ratio": 17.000000000000433
+          },
+          "uniform": {
+            "mean_qoi_error": 0.038890368294530374,
+            "mean_field_error": 0.039186649154611564,
+            "qoi_error_49": 0.004225579910485084,
+            "field_error_49": 0.004728530606364452,
+            "best_qoi_error": 0.00028881219476401974,
+            "mean_h_ratio": 1.0000000000000075
+          }
+        },
+        "dual_interface_5_120kHz": {
+          "cycle1_regularized": {
+            "mean_qoi_error": 0.029970038868180383,
+            "mean_field_error": 0.042888671206710596,
+            "qoi_error_49": 0.013400206041873006,
+            "field_error_49": 0.0151935948352539,
+            "best_qoi_error": 0.0018781853844068057,
+            "mean_h_ratio": 9.000000000000068
+          },
+          "pulse_v0": {
+            "mean_qoi_error": 0.022212937400683017,
+            "mean_field_error": 0.03765410943392624,
+            "qoi_error_49": 0.014269983678878871,
+            "field_error_49": 0.016934153600854946,
+            "best_qoi_error": 0.0018781853844068057,
+            "mean_h_ratio": 11.000000000000089
+          },
+          "snapshot": {
+            "mean_qoi_error": 0.04253907608882226,
+            "mean_field_error": 0.05542287137601771,
+            "qoi_error_49": 0.05239951728897657,
+            "field_error_49": 0.05377297786114866,
+            "best_qoi_error": 0.013155023019870732,
+            "mean_h_ratio": 15.000000000000128
+          },
+          "uniform": {
+            "mean_qoi_error": 0.03260788695287442,
+            "mean_field_error": 0.03155840108341589,
+            "qoi_error_49": 0.0055059843287758896,
+            "field_error_49": 0.005435983642978167,
+            "best_qoi_error": 0.00030057243751070657,
+            "mean_h_ratio": 1.0000000000000075
+          }
+        },
+        "localized_shifted_4_80kHz": {
+          "cycle1_regularized": {
+            "mean_qoi_error": 0.02819976355433821,
+            "mean_field_error": 0.0358206018988062,
+            "qoi_error_49": 0.055154053608629815,
+            "field_error_49": 0.06122797968583019,
+            "best_qoi_error": 0.003717053878067606,
+            "mean_h_ratio": 11.000000000000089
+          },
+          "pulse_v0": {
+            "mean_qoi_error": 0.04081478701993822,
+            "mean_field_error": 0.045785677712444836,
+            "qoi_error_49": 0.0519948355039446,
+            "field_error_49": 0.05711431535319576,
+            "best_qoi_error": 0.0007323934525940851,
+            "mean_h_ratio": 11.000000000000089
+          },
+          "snapshot": {
+            "mean_qoi_error": 0.15792797525558894,
+            "mean_field_error": 0.16362523119227346,
+            "qoi_error_49": 0.027550576724361068,
+            "field_error_49": 0.039600726503233034,
+            "best_qoi_error": 0.027550576724361068,
+            "mean_h_ratio": 18.00000000000017
+          },
+          "uniform": {
+            "mean_qoi_error": 0.031550643167637574,
+            "mean_field_error": 0.03262637383899744,
+            "qoi_error_49": 0.00419258863913014,
+            "field_error_49": 0.005356862505843487,
+            "best_qoi_error": 0.0006852606267216085,
+            "mean_h_ratio": 1.0000000000000075
+          }
+        },
+        "localized_standard_3_60kHz": {
+          "cycle1_regularized": {
+            "mean_qoi_error": 0.008726465907219686,
+            "mean_field_error": 0.01211343683625787,
+            "qoi_error_49": 0.009742324024918413,
+            "field_error_49": 0.010345031478650946,
+            "best_qoi_error": 0.006447664155054996,
+            "mean_h_ratio": 16.000000000000398
+          },
+          "pulse_v0": {
+            "mean_qoi_error": 0.005873009526810285,
+            "mean_field_error": 0.009748513851530038,
+            "qoi_error_49": 0.0004459617738441278,
+            "field_error_49": 0.000896203924887441,
+            "best_qoi_error": 0.0004459617738441278,
+            "mean_h_ratio": 16.000000000000412
+          },
+          "snapshot": {
+            "mean_qoi_error": 0.0141974872190967,
+            "mean_field_error": 0.014668830395630087,
+            "qoi_error_49": 0.011662348526538791,
+            "field_error_49": 0.012087569880335438,
+            "best_qoi_error": 0.008358552470559838,
+            "mean_h_ratio": 17.000000000000433
+          },
+          "uniform": {
+            "mean_qoi_error": 0.009404845152857283,
+            "mean_field_error": 0.009555926356521534,
+            "qoi_error_49": 0.0009693892727107099,
+            "field_error_49": 0.0011210323225122878,
+            "best_qoi_error": 6.269998172208885e-05,
+            "mean_h_ratio": 1.0000000000000075
+          }
+        },
+        "smooth_global_12_300kHz": {
+          "cycle1_regularized": {
+            "mean_qoi_error": 0.0034368545943252895,
+            "mean_field_error": 0.009962630803027906,
+            "qoi_error_49": 0.001936568255430039,
+            "field_error_49": 0.004489773704419277,
+            "best_qoi_error": 0.001004765706883224,
+            "mean_h_ratio": 3.0000000000000155
+          },
+          "pulse_v0": {
+            "mean_qoi_error": 0.004044887898508297,
+            "mean_field_error": 0.01055060569094138,
+            "qoi_error_49": 0.001936568255430039,
+            "field_error_49": 0.004489773704419277,
+            "best_qoi_error": 0.0010203601068382903,
+            "mean_h_ratio": 3.5000000000000155
+          },
+          "snapshot": {
+            "mean_qoi_error": 0.00401163367823476,
+            "mean_field_error": 0.012660004846163577,
+            "qoi_error_49": 0.0023559986117659194,
+            "field_error_49": 0.007555056817077564,
+            "best_qoi_error": 0.0009281411990943576,
+            "mean_h_ratio": 3.500000000000024
+          },
+          "uniform": {
+            "mean_qoi_error": 0.0030173922491128417,
+            "mean_field_error": 0.009053563650719246,
+            "qoi_error_49": 0.001317063966605622,
+            "field_error_49": 0.004010291693134853,
+            "best_qoi_error": 0.0005870223480102289,
+            "mean_h_ratio": 1.0000000000000075
+          }
+        }
+      },
+      "aggregate": {
+        "cycle1_regularized": {
+          "geometric_mean_qoi_error": 0.011908587662145542,
+          "geometric_mean_field_error": 0.017712162872050834,
+          "mean_runtime_ms": 48.42117890002555,
+          "mean_h_ratio": 9.400000000000153
+        },
+        "pulse_v0": {
+          "geometric_mean_qoi_error": 0.010501569364011287,
+          "geometric_mean_field_error": 0.01596865325213438,
+          "mean_runtime_ms": 48.84524785006761,
+          "mean_h_ratio": 10.500000000000167
+        },
+        "snapshot": {
+          "geometric_mean_qoi_error": 0.023793383816459537,
+          "geometric_mean_field_error": 0.03282351121979247,
+          "mean_runtime_ms": 41.216606849957316,
+          "mean_h_ratio": 14.10000000000024
+        },
+        "uniform": {
+          "geometric_mean_qoi_error": 0.0047024529628925255,
+          "geometric_mean_field_error": 0.007417209220925088,
+          "mean_runtime_ms": 7.129890400028671,
+          "mean_h_ratio": 1.0000000000000075
+        }
+      }
+    }
+  },
+  "cycle2": {
+    "elapsed_s": 3.874192351000147,
+    "summary": {
+      "cycle": 2,
+      "by_scenario": {
+        "broadband_standard_8_280kHz": {
+          "cycle1_regularized": {
+            "mean_qoi_error": 0.060019531812039464,
+            "mean_field_error": 0.06010742315108383,
+            "qoi_error_49": 0.02466765360135959,
+            "field_error_49": 0.024796675067786513,
+            "best_qoi_error": 0.004655535894381774,
+            "mean_h_ratio": 8.000000000000208
+          },
+          "cycle2_governed": {
+            "mean_qoi_error": 0.03825280591909932,
+            "mean_field_error": 0.038799770347440365,
+            "qoi_error_49": 0.012524578713326481,
+            "field_error_49": 0.012841420339290168,
+            "best_qoi_error": 0.0007532196326670002,
+            "mean_h_ratio": 4.000000000000037
+          },
+          "pulse_v0": {
+            "mean_qoi_error": 0.07754028043566405,
+            "mean_field_error": 0.07821852767053257,
+            "qoi_error_49": 0.042066957399716456,
+            "field_error_49": 0.04291768591369174,
+            "best_qoi_error": 0.009117410408590597,
+            "mean_h_ratio": 11.000000000000238
+          },
+          "snapshot": {
+            "mean_qoi_error": 0.07754203999887341,
+            "mean_field_error": 0.07811540792717445,
+            "qoi_error_49": 0.05888010340109936,
+            "field_error_49": 0.059577814136530696,
+            "best_qoi_error": 0.03620502066349371,
+            "mean_h_ratio": 17.000000000000433
+          },
+          "uniform": {
+            "mean_qoi_error": 0.038890368294530374,
+            "mean_field_error": 0.039186649154611564,
+            "qoi_error_49": 0.004225579910485084,
+            "field_error_49": 0.004728530606364452,
+            "best_qoi_error": 0.00028881219476401974,
+            "mean_h_ratio": 1.0000000000000075
+          }
+        },
+        "dual_interface_5_120kHz": {
+          "cycle1_regularized": {
+            "mean_qoi_error": 0.03172504201320732,
+            "mean_field_error": 0.04486477444503733,
+            "qoi_error_49": 0.018740705966648633,
+            "field_error_49": 0.02151764717416131,
+            "best_qoi_error": 0.003557698039738918,
+            "mean_h_ratio": 11.000000000000089
+          },
+          "cycle2_governed": {
+            "mean_qoi_error": 0.030759569575800866,
+            "mean_field_error": 0.04394251668351771,
+            "qoi_error_49": 0.018309954746453878,
+            "field_error_49": 0.02039987074974056,
+            "best_qoi_error": 0.0009108868798871043,
+            "mean_h_ratio": 6.000000000000042
+          },
+          "pulse_v0": {
+            "mean_qoi_error": 0.03178708701444443,
+            "mean_field_error": 0.05161766651451564,
+            "qoi_error_49": 0.013322532130560661,
+            "field_error_49": 0.01618884219706608,
+            "best_qoi_error": 0.0016504633866201734,
+            "mean_h_ratio": 11.000000000000055
+          },
+          "snapshot": {
+            "mean_qoi_error": 0.06379200436634194,
+            "mean_field_error": 0.0771316461107987,
+            "qoi_error_49": 0.09229354130553129,
+            "field_error_49": 0.09349881814505523,
+            "best_qoi_error": 0.013155023019870732,
+            "mean_h_ratio": 16.00000000000013
+          },
+          "uniform": {
+            "mean_qoi_error": 0.03260788695287442,
+            "mean_field_error": 0.03155840108341589,
+            "qoi_error_49": 0.0055059843287758896,
+            "field_error_49": 0.005435983642978167,
+            "best_qoi_error": 0.00030057243751070657,
+            "mean_h_ratio": 1.0000000000000075
+          }
+        },
+        "localized_shifted_4_80kHz": {
+          "cycle1_regularized": {
+            "mean_qoi_error": 0.02819976355433821,
+            "mean_field_error": 0.0358206018988062,
+            "qoi_error_49": 0.055154053608629815,
+            "field_error_49": 0.06122797968583019,
+            "best_qoi_error": 0.003717053878067606,
+            "mean_h_ratio": 11.000000000000089
+          },
+          "cycle2_governed": {
+            "mean_qoi_error": 0.021569366340319352,
+            "mean_field_error": 0.02381379855027882,
+            "qoi_error_49": 0.0031035288452537467,
+            "field_error_49": 0.0031311183322530653,
+            "best_qoi_error": 0.001080577508705811,
+            "mean_h_ratio": 6.000000000000048
+          },
+          "pulse_v0": {
+            "mean_qoi_error": 0.04081478701993822,
+            "mean_field_error": 0.045785677712444836,
+            "qoi_error_49": 0.0519948355039446,
+            "field_error_49": 0.05711431535319576,
+            "best_qoi_error": 0.0007323934525940851,
+            "mean_h_ratio": 11.000000000000089
+          },
+          "snapshot": {
+            "mean_qoi_error": 0.15792797525558894,
+            "mean_field_error": 0.16362523119227346,
+            "qoi_error_49": 0.027550576724361068,
+            "field_error_49": 0.039600726503233034,
+            "best_qoi_error": 0.027550576724361068,
+            "mean_h_ratio": 18.00000000000017
+          },
+          "uniform": {
+            "mean_qoi_error": 0.031550643167637574,
+            "mean_field_error": 0.03262637383899744,
+            "qoi_error_49": 0.00419258863913014,
+            "field_error_49": 0.005356862505843487,
+            "best_qoi_error": 0.0006852606267216085,
+            "mean_h_ratio": 1.0000000000000075
+          }
+        },
+        "localized_standard_3_60kHz": {
+          "cycle1_regularized": {
+            "mean_qoi_error": 0.010418373860092029,
+            "mean_field_error": 0.013690351395292698,
+            "qoi_error_49": 0.011651625894673721,
+            "field_error_49": 0.01203869193983038,
+            "best_qoi_error": 0.006447664155054996,
+            "mean_h_ratio": 16.000000000000412
+          },
+          "cycle2_governed": {
+            "mean_qoi_error": 0.00362630121250106,
+            "mean_field_error": 0.0043394707547123774,
+            "qoi_error_49": 0.0004720025378197345,
+            "field_error_49": 0.0007309734219160131,
+            "best_qoi_error": 0.0004720025378197345,
+            "mean_h_ratio": 6.000000000000055
+          },
+          "pulse_v0": {
+            "mean_qoi_error": 0.00581249792094362,
+            "mean_field_error": 0.009735253357853479,
+            "qoi_error_49": 0.0004459617738441278,
+            "field_error_49": 0.000896203924887441,
+            "best_qoi_error": 0.0004459617738441278,
+            "mean_h_ratio": 16.000000000000412
+          },
+          "snapshot": {
+            "mean_qoi_error": 0.015625854483393337,
+            "mean_field_error": 0.01599060372977993,
+            "qoi_error_49": 0.010387684871945574,
+            "field_error_49": 0.010825748052914034,
+            "best_qoi_error": 0.010387684871945574,
+            "mean_h_ratio": 15.000000000000412
+          },
+          "uniform": {
+            "mean_qoi_error": 0.009404845152857283,
+            "mean_field_error": 0.009555926356521534,
+            "qoi_error_49": 0.0009693892727107099,
+            "field_error_49": 0.0011210323225122878,
+            "best_qoi_error": 6.269998172208885e-05,
+            "mean_h_ratio": 1.0000000000000075
+          }
+        },
+        "smooth_global_12_300kHz": {
+          "cycle1_regularized": {
+            "mean_qoi_error": 0.0034368545943252895,
+            "mean_field_error": 0.009962630803027906,
+            "qoi_error_49": 0.001936568255430039,
+            "field_error_49": 0.004489773704419277,
+            "best_qoi_error": 0.001004765706883224,
+            "mean_h_ratio": 3.0000000000000155
+          },
+          "cycle2_governed": {
+            "mean_qoi_error": 0.0032071704266724973,
+            "mean_field_error": 0.009760135586064067,
+            "qoi_error_49": 0.0013170639668611305,
+            "field_error_49": 0.004010291693175092,
+            "best_qoi_error": 0.0007055333248409639,
+            "mean_h_ratio": 1.7500000000000138
+          },
+          "pulse_v0": {
+            "mean_qoi_error": 0.004044887898508297,
+            "mean_field_error": 0.01055060569094138,
+            "qoi_error_49": 0.001936568255430039,
+            "field_error_49": 0.004489773704419277,
+            "best_qoi_error": 0.0010203601068382903,
+            "mean_h_ratio": 3.5000000000000155
+          },
+          "snapshot": {
+            "mean_qoi_error": 0.00401163367823476,
+            "mean_field_error": 0.012660004846163577,
+            "qoi_error_49": 0.0023559986117659194,
+            "field_error_49": 0.007555056817077564,
+            "best_qoi_error": 0.0009281411990943576,
+            "mean_h_ratio": 3.500000000000024
+          },
+          "uniform": {
+            "mean_qoi_error": 0.0030173922491128417,
+            "mean_field_error": 0.009053563650719246,
+            "qoi_error_49": 0.001317063966605622,
+            "field_error_49": 0.004010291693134853,
+            "best_qoi_error": 0.0005870223480102289,
+            "mean_h_ratio": 1.0000000000000075
+          }
+        }
+      },
+      "aggregate": {
+        "cycle1_regularized": {
+          "geometric_mean_qoi_error": 0.012616442908006443,
+          "geometric_mean_field_error": 0.018566662915925642,
+          "mean_runtime_ms": 43.14290649999748,
+          "mean_h_ratio": 9.80000000000016
+        },
+        "cycle2_governed": {
+          "geometric_mean_qoi_error": 0.005615593601240126,
+          "geometric_mean_field_error": 0.008718650151204566,
+          "mean_runtime_ms": 43.08049750004557,
+          "mean_h_ratio": 4.750000000000039
+        },
+        "pulse_v0": {
+          "geometric_mean_qoi_error": 0.01062809669386974,
+          "geometric_mean_field_error": 0.01653285508387539,
+          "mean_runtime_ms": 44.88985365003373,
+          "mean_h_ratio": 10.50000000000016
+        },
+        "snapshot": {
+          "geometric_mean_qoi_error": 0.025739689433087777,
+          "geometric_mean_field_error": 0.03531637650951515,
+          "mean_runtime_ms": 35.85307805001321,
+          "mean_h_ratio": 13.900000000000233
+        },
+        "uniform": {
+          "geometric_mean_qoi_error": 0.0047024529628925255,
+          "geometric_mean_field_error": 0.007417209220925088,
+          "mean_runtime_ms": 6.3870328000120935,
+          "mean_h_ratio": 1.0000000000000075
+        }
+      }
+    }
+  },
+  "scenario_descriptions": {
+    "localized_standard_3_60kHz": "Compliant bond and mirror neck; sub-resonant/localized interrogation.",
+    "localized_shifted_4_80kHz": "Held-out shifted defect geometry tests spatial generalization.",
+    "dual_interface_5_120kHz": "Two separated compliance zones test multi-hotspot allocation.",
+    "broadband_standard_8_280kHz": "Broadband wave field where global resolution may be required.",
+    "smooth_global_12_300kHz": "No localized defect; negative control for inappropriate sparsening."
+  },
+  "mathematical_notes": [
+    "Linear quasi-static scalar load progression remains rank-identical and is not used as evidence of dynamic adaptivity.",
+    "Cycle 1 adds wave-resolution pressure, mesh-size coverage, neighbor smoothing, and bulk marking.",
+    "Cycle 2 computes spatial entropy of pulse-integrated residual energy and uses it as an authority coefficient between a localized residual channel and a global coverage channel.",
+    "The compression gate closes continuously as effective residual support approaches the full domain."
+  ]
+}

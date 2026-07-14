@@ -1,0 +1,23 @@
+TRIAD // CLASSIC CINEMATIC LAB v8.0.0
+
+ONE-CLICK
+1. Double-click OPEN_LAB.html.
+2. Keep internet enabled for the pinned Three.js CDN.
+
+DISPLAY
+- Click the sun button or press B.
+- Lower UI brightness independently from the specimen.
+- Shift+B restores the original cinematic profile.
+
+EVIDENCE
+- Click Σ or press E for the benchmark lineage.
+- Press 2 for the 2D axisymmetric bridge.
+
+RELIABLE LOCAL LAUNCH
+- Windows: Launch-Lab.cmd
+- PowerShell: Launch-Lab.ps1
+- macOS/Linux: ./launch-lab.sh
+
+VERIFY
+python tests/verify_package.py
+python benchmarks/run_benchmarks.py --quick

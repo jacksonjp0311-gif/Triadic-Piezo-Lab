@@ -1,0 +1,384 @@
+{
+  "name": "TRIAD Classic Cinematic Scientific Evolution Laboratory",
+  "version": "8.0.0",
+  "release": "Classic Cinematic Evidence Package",
+  "entrypoint": "OPEN_LAB.html",
+  "one_click": true,
+  "three_js": "0.185.1 (pinned CDN)",
+  "display_controls": [
+    "UI brightness",
+    "UI saturation",
+    "specimen exposure",
+    "holographic bloom"
+  ],
+  "benchmark_families": [
+    "adaptive_fem",
+    "stability_bridge",
+    "axisymmetric_2d",
+    "triadic_3d",
+    "observer_manifold",
+    "evolution6_4d",
+    "negative_controls"
+  ],
+  "scientific_status": "research preview; numerical validation only",
+  "generated_utc": "2026-07-14T21:47:08.462553+00:00",
+  "file_count": 73,
+  "uncompressed_bytes": 12379067,
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "3a9f3e7a90ea63d20ea6f0d74504fb7b0bead50aaaaacc6c657e01aaa5df5d77",
+      "bytes": 623
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "6b3d183473d02176c402dc7f0287df7fe80c3d4575dc8d79bdfd11f0893e44e9",
+      "bytes": 492
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "fc5871619dbada8d41db760d9507c758cd1c0ba0030bc7b2c14b47c9bc3469d1",
+      "bytes": 1075
+    },
+    {
+      "path": "Launch-Lab.cmd",
+      "sha256": "9076f6bf05b16ca2f4e097e43e3d8bab34f95ae2626508b998e7c5547396dc38",
+      "bytes": 485
+    },
+    {
+      "path": "Launch-Lab.ps1",
+      "sha256": "85d4d2fda56e73e03f49e173af89150a7be0edebae6c1453477ed3860bef5ed1",
+      "bytes": 513
+    },
+    {
+      "path": "OPEN_LAB.html",
+      "sha256": "685d532bdfe7bde67fe78de230f65e94e4fed2f4ba9da61c9e3c5ac8f5ca308e",
+      "bytes": 4059547
+    },
+    {
+      "path": "QUICKSTART.txt",
+      "sha256": "7d20023606085a659a43cc712ca96db890ac1774e4fd081bec0fb14768eba209",
+      "bytes": 577
+    },
+    {
+      "path": "README.md",
+      "sha256": "343f06b273703d6d82fe7e74e2ff119f14d9c0a186d6707ee6f99884d503f286",
+      "bytes": 7904
+    },
+    {
+      "path": "benchmarks/BENCHMARK_REPORT.md",
+      "sha256": "fd819cb523dbd3a544c7cf1c102aaf1e7bdf1abf6956f1f3c57c513ca01f16c1",
+      "bytes": 1822
+    },
+    {
+      "path": "benchmarks/reference_sources/piezo_3d_triadic_bridge.py",
+      "sha256": "96caa0c5f6c938eb49667be8cd1d0557cc8ed3e11cffd2fd05df0188690b00b3",
+      "bytes": 34828
+    },
+    {
+      "path": "benchmarks/reference_sources/piezo_4d_floquet_benchmark.py",
+      "sha256": "6efa72c88d44db21cd0ca147c878dcb7eb7d3ee0353ee6ddd2f29ae4a3e1eb4c",
+      "bytes": 12527
+    },
+    {
+      "path": "benchmarks/reference_sources/piezo_4d_floquet_benchmark_original.py",
+      "sha256": "6efa72c88d44db21cd0ca147c878dcb7eb7d3ee0353ee6ddd2f29ae4a3e1eb4c",
+      "bytes": 12527
+    },
+    {
+      "path": "benchmarks/reference_sources/piezo_axisymmetric_2d_fine_bridge.py",
+      "sha256": "c5acb2eaa699ad8b67da1df3fb4dcad6c78991900b78c2fa5c642f9547260cfb",
+      "bytes": 4815
+    },
+    {
+      "path": "benchmarks/reference_sources/piezo_evolution_two_cycle.py",
+      "sha256": "498ec46f8a2bc5471ff102dfc27df2d5e086a345c8d6c93335c0f42c1650350f",
+      "bytes": 16221
+    },
+    {
+      "path": "benchmarks/reference_sources/piezo_observer_conditioned_benchmark.py",
+      "sha256": "07925f1c89901f3d1b3392b1dfa94f23f8d8f19b5e540c2948d970363aafb4cb",
+      "bytes": 8000
+    },
+    {
+      "path": "benchmarks/reference_sources/piezo_observer_manifold_evolution.py",
+      "sha256": "5d661e916fd5f777fe2e63d2b09e3f942fac921f6f710a478703e053eef7599f",
+      "bytes": 6594
+    },
+    {
+      "path": "benchmarks/reference_sources/piezo_sparse_benchmark.py",
+      "sha256": "ab2b4e8c7ec4655490fccd416af660b0e4e555b219beb59122923f48f18bbcba",
+      "bytes": 6768
+    },
+    {
+      "path": "benchmarks/reference_sources/piezo_triadic_multigate.py",
+      "sha256": "8a84bff042f9112b0b69940c63123b623897f4ee608d3d6c07abc2971b819405",
+      "bytes": 7666
+    },
+    {
+      "path": "benchmarks/results/adaptive_fem/results.csv",
+      "sha256": "b9cc4782f0ded222fb84dc283632a6b710f3bb72b5ce8bbd9e5d25b344e0f972",
+      "bytes": 4507
+    },
+    {
+      "path": "benchmarks/results/adaptive_fem/results.json",
+      "sha256": "a034c5ef86950a3bb43b28556d576488f6774bf34a0a40331e308ad434a83319",
+      "bytes": 10896
+    },
+    {
+      "path": "benchmarks/results/adaptive_fem/two_cycle_findings.md",
+      "sha256": "e23ebbd0bbc2c3303420b402365131ecbb30c2ba3ca84fa8bb0f5de8bdf3c8cd",
+      "bytes": 3170
+    },
+    {
+      "path": "benchmarks/results/adaptive_fem/two_cycle_results.json",
+      "sha256": "6e22f505e2f8b1fb527abaf270b0d0a40d71d7a78fd3e7ce6eccc67912ac9522",
+      "bytes": 19778
+    },
+    {
+      "path": "benchmarks/results/axisymmetric_2d/findings.md",
+      "sha256": "fa6551c9854c86204bfa9ec8d3801fd1e5a1ecfeff6148b80b4da50d126ae983",
+      "bytes": 6842
+    },
+    {
+      "path": "benchmarks/results/axisymmetric_2d/mesh_convergence.json",
+      "sha256": "975b1e0ae912b89dd89700d8828e29c29a59a8f766e4a17c7dd9b3effe9e6d34",
+      "bytes": 575
+    },
+    {
+      "path": "benchmarks/results/axisymmetric_2d/results.csv",
+      "sha256": "c8839ddad561076af5d693d1d3f97452f8db598e7710db121646e82434e1bf25",
+      "bytes": 3707
+    },
+    {
+      "path": "benchmarks/results/axisymmetric_2d/results.json",
+      "sha256": "b92daaea2b4b2353523ed183e6645fffb06e29ba1a18d9d3dd26026a0c46e36c",
+      "bytes": 20019
+    },
+    {
+      "path": "benchmarks/results/benchmark_summary.json",
+      "sha256": "c1db60f9ba3f096cb2f327c27c4066e1fd37eabbcb1f8ede8e4654f61b26e692",
+      "bytes": 3650
+    },
+    {
+      "path": "benchmarks/results/evolution6_4d/findings.md",
+      "sha256": "c4fd6325d45df63000a075885dd9360ccfee633e9926343cb83f34ef7c09f754",
+      "bytes": 5227
+    },
+    {
+      "path": "benchmarks/results/evolution6_4d/reproduced/piezo_4d_floquet_results.csv",
+      "sha256": "c688abaf2580accb08e9cc2f63f634b542be3c8ab9e8cbcc378e20dcf34b7bf1",
+      "bytes": 3539
+    },
+    {
+      "path": "benchmarks/results/evolution6_4d/reproduced/piezo_4d_floquet_results.json",
+      "sha256": "715c3ca00f114c3bf3c701973b6d6d28d950923061c202a4689d342501d8bba0",
+      "bytes": 72048
+    },
+    {
+      "path": "benchmarks/results/evolution6_4d/reproduction_log.txt",
+      "sha256": "6f3f54b66a6a6a17a2fc1a329a90a38f749d4e9a6b4359803ed6cc4ae4f16b1e",
+      "bytes": 535
+    },
+    {
+      "path": "benchmarks/results/evolution6_4d/results.csv",
+      "sha256": "c688abaf2580accb08e9cc2f63f634b542be3c8ab9e8cbcc378e20dcf34b7bf1",
+      "bytes": 3539
+    },
+    {
+      "path": "benchmarks/results/evolution6_4d/results.json",
+      "sha256": "715c3ca00f114c3bf3c701973b6d6d28d950923061c202a4689d342501d8bba0",
+      "bytes": 72048
+    },
+    {
+      "path": "benchmarks/results/negative_controls/piezo_macro_adaptive_results.json",
+      "sha256": "19164d946dbaf64e6b32244f7b00873698412350e8fcf26aaf8c7c7815019f42",
+      "bytes": 353195
+    },
+    {
+      "path": "benchmarks/results/negative_controls/piezo_oracle_ceiling_results.json",
+      "sha256": "edf63bd9314692baa8803939485b470a35a8f147e8e9f5579a2239cfd18da45e",
+      "bytes": 231439
+    },
+    {
+      "path": "benchmarks/results/negative_controls/piezo_phase_mesh_results.json",
+      "sha256": "8ea49cb9fc392e73ad046949821c9efb9a2d3f9df36437d3904ceca65d2d45c5",
+      "bytes": 1016223
+    },
+    {
+      "path": "benchmarks/results/negative_controls/piezo_triad_deep_results.json",
+      "sha256": "37010a2753e151af0fb0e6224103a73af4e4140fb0d39f491c71eacb6f1ee992",
+      "bytes": 186962
+    },
+    {
+      "path": "benchmarks/results/negative_controls/piezo_triad_random_holdout.csv",
+      "sha256": "a85d049d60d9f45f0f32b0391203fbd47bdb8a2face2d4e70a6e3ebd6ac750e3",
+      "bytes": 18403
+    },
+    {
+      "path": "benchmarks/results/observer_manifold/conditioned_results.csv",
+      "sha256": "d2df4e7bbbe8362b8f74799a16f2ed447cc6dd68888faaaa18ee40edf1224247",
+      "bytes": 315292
+    },
+    {
+      "path": "benchmarks/results/observer_manifold/conditioned_results.json",
+      "sha256": "d3e6d43666e0f3a14a448208f7f1c445018ddaab608c2cb071e0f981b27bb9c5",
+      "bytes": 806429
+    },
+    {
+      "path": "benchmarks/results/observer_manifold/findings.md",
+      "sha256": "ef72b7c19485b87c0cc6edca82f3902b33c71c622bafb13af55f3080ec26a7b4",
+      "bytes": 5513
+    },
+    {
+      "path": "benchmarks/results/observer_manifold/manifold_results.json",
+      "sha256": "1fa0f4ef868f8d354d955b54bd72f549e3d62c975d34e79d9b73ff2b473bfa12",
+      "bytes": 23383
+    },
+    {
+      "path": "benchmarks/results/stability_bridge/findings.md",
+      "sha256": "19c5f0112f82eaa3764b0c842db6521bffe478c41e89159db9443b1e279bf63b",
+      "bytes": 6306
+    },
+    {
+      "path": "benchmarks/results/stability_bridge/results.csv",
+      "sha256": "9eb2c7103aabc926c886a07b5969a24c5611edf67a20e4a9b6d2e29dbb27c83f",
+      "bytes": 5208
+    },
+    {
+      "path": "benchmarks/results/stability_bridge/results.json",
+      "sha256": "b5ec3901cf375671692363664fa610c2caab9bc00768175aac8bec3d9197050b",
+      "bytes": 217694
+    },
+    {
+      "path": "benchmarks/results/triadic_3d/findings.md",
+      "sha256": "618acc0f8d773b726db72660b1262684bfd2473169c5bd4d74bc1f6b200544c5",
+      "bytes": 7169
+    },
+    {
+      "path": "benchmarks/results/triadic_3d/mesh_convergence.json",
+      "sha256": "3b7a643fa23e5ba87941231d4e13dad1c6dcaac0f1eb998ce3cb7beb935d67c5",
+      "bytes": 989
+    },
+    {
+      "path": "benchmarks/results/triadic_3d/results.csv",
+      "sha256": "1b17d0dca1068b5992391429f044bdfa457e654e5e006334f656214a9493cfea",
+      "bytes": 4866
+    },
+    {
+      "path": "benchmarks/results/triadic_3d/results.json",
+      "sha256": "9aaad2ead6327f81243a30386375a2b2a06c255ea5a6907b994505725d2579c0",
+      "bytes": 227108
+    },
+    {
+      "path": "benchmarks/run_benchmarks.py",
+      "sha256": "af168e668fefee7f2c9a6ecdbfbe7cad2b42579cc7cfd54d44ec5255f8fd33c3",
+      "bytes": 1557
+    },
+    {
+      "path": "benchmarks/scripts/__pycache__/evolution6_4d.cavity_core-78.py313.1.nbc",
+      "sha256": "e1b3be95ca5e8ae0a36e0ed2b48ff7a22c70cf4822ab5e56c5e86bac05e07776",
+      "bytes": 61733
+    },
+    {
+      "path": "benchmarks/scripts/__pycache__/evolution6_4d.cavity_core-78.py313.2.nbc",
+      "sha256": "f98e956bedadf4e7a7e91fb14ecaebd5b8156979e8892327245ae8e7862266f3",
+      "bytes": 61983
+    },
+    {
+      "path": "benchmarks/scripts/__pycache__/evolution6_4d.cavity_core-78.py313.nbi",
+      "sha256": "61c1d4535eeb7d14de273ec6fb667ee95ca394c8f44aa18556a17ff23f172fc5",
+      "bytes": 3221
+    },
+    {
+      "path": "benchmarks/scripts/__pycache__/evolution6_4d.coupled_core-114.py313.1.nbc",
+      "sha256": "09c8129b38db98ee8e0d5522e7d749e3aed979b6b0dedca9c1868c1cf7ffe9b6",
+      "bytes": 95848
+    },
+    {
+      "path": "benchmarks/scripts/__pycache__/evolution6_4d.coupled_core-114.py313.2.nbc",
+      "sha256": "d8177dfc3a5bc6dc2b7353379af8a479702d51582beccf5bff02f144adb438b8",
+      "bytes": 95649
+    },
+    {
+      "path": "benchmarks/scripts/__pycache__/evolution6_4d.coupled_core-114.py313.nbi",
+      "sha256": "7039b2b86af7e0204dde16470124cb136acc1e0bd62cfd851bbd47d17f8bd897",
+      "bytes": 3523
+    },
+    {
+      "path": "benchmarks/scripts/__pycache__/evolution6_4d.duffing_sweep_numba-42.py313.1.nbc",
+      "sha256": "6b11f1c4ecb1a55fe6db07c07c08bef979aaf747817d3a44e409ca512adf04ed",
+      "bytes": 60543
+    },
+    {
+      "path": "benchmarks/scripts/__pycache__/evolution6_4d.duffing_sweep_numba-42.py313.nbi",
+      "sha256": "1b5a214f5ffb776b3dfb2289fdf06533ed09b9861ae2e2f78481f3ad8c81a1e7",
+      "bytes": 1808
+    },
+    {
+      "path": "benchmarks/scripts/__pycache__/evolution6_4d.floquet_exp-10.py313.1.nbc",
+      "sha256": "cf31e097ceb97c85046331a40e720759db37dca0f986cf8e6920bbc42c59d3ff",
+      "bytes": 42813
+    },
+    {
+      "path": "benchmarks/scripts/__pycache__/evolution6_4d.floquet_exp-10.py313.2.nbc",
+      "sha256": "e283ab8266e98de5ef38bdd06bd098194fb9d1b551388ad8f5f59017e40549df",
+      "bytes": 45816
+    },
+    {
+      "path": "benchmarks/scripts/__pycache__/evolution6_4d.floquet_exp-10.py313.nbi",
+      "sha256": "8d7f050b92360546a064cc2e5ff2e16238c98572b991bee733e81d0a9b43ff7e",
+      "bytes": 2872
+    },
+    {
+      "path": "benchmarks/scripts/evolution6_4d.py",
+      "sha256": "deff1d1f9d0402e0387d1403706a6f74ff45207a19b0faff96309de16ee45df4",
+      "bytes": 12677
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "5022cd726f16ca609b8af3e0ef7276ef9deafc90440c69ee66c09076cdd719ed",
+      "bytes": 1064
+    },
+    {
+      "path": "docs/ROADMAP.md",
+      "sha256": "28f1b238a500ffddefe6a256dcbceced5ddb08b18b325e43a260983d59cbf393",
+      "bytes": 807
+    },
+    {
+      "path": "docs/SCIENTIFIC_BOUNDARIES.md",
+      "sha256": "a6cf8507912753d8e04af57f858a6904ab35de027d57448a2c752a66fd2e6629",
+      "bytes": 758
+    },
+    {
+      "path": "launch-lab.sh",
+      "sha256": "cc60ef81f76d949001e47105ad6f1c8650e0f2a33f8aa8dd3cb353a4313a0e84",
+      "bytes": 418
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "185570a5ef9e8ecfaf01ce2862f2e2a836bb20c8e182d3675207751d19d5e2ba",
+      "bytes": 36
+    },
+    {
+      "path": "research/evidence_ledger.jsonl",
+      "sha256": "fae88929e090f39f9053f8c1a79e862522c2dbb0101c6314dcc6356808189265",
+      "bytes": 1885
+    },
+    {
+      "path": "source/ORIGINAL_CLASSIC_STYLE_REFERENCE.html",
+      "sha256": "fc5cdb1d44b1eb43a5ef7477193b2c3a42e67d50b70a16388928e5a562b3e00a",
+      "bytes": 4043409
+    },
+    {
+      "path": "source/README.md",
+      "sha256": "65453a3501850381feec9050c65f0000e8aad3e3eea0755a86a16ad7b4a38e0e",
+      "bytes": 212
+    },
+    {
+      "path": "tests/verify_package.py",
+      "sha256": "c4f63b337bdb44239a97ec6d13b86d4a510f98b02160bdacc18df25d1a1f6e23",
+      "bytes": 1192
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "TRIAD Classic Cinematic Scientific Evolution Laboratory"
+type: software
+version: "8.0.0"
+date-released: "2026-07-14"
+authors:
+  - family-names: "Jackson"
+    given-names: "James Paul"
+license: MIT
+abstract: "A one-click cinematic piezoelectric scientific visualization and benchmark package spanning adaptive FEM, certified reduced-order modeling, observer-conditioned validity and temporal stability."

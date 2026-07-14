@@ -1,0 +1,84 @@
+{
+  "release": "8.0.0-classic-cinematic",
+  "generated_utc": "2026-07-14T21:45:38.553764+00:00",
+  "adaptive_fem": {
+    "quasistatic_indicator_correlation": 1.0,
+    "quasistatic_rank_identical": true,
+    "interpretation": "Scalar quasi-static pulse steps do not add spatial ranking information."
+  },
+  "triadic_multigate": {
+    "count": 29,
+    "passes": 29,
+    "median_modes": 10.0,
+    "mean_modes": 8.275862068965518,
+    "median_reduction": 0.8854166666666666,
+    "geomean_transfer_error": 0.0009885019558556478,
+    "median_phase_deg": 0.08164612547768542,
+    "max_phase_deg": 0.2439088114267948,
+    "max_point_error": 0.01993316541094919,
+    "vs_spectral_wins_delta": 18,
+    "spectral_passes_same_modes": 17,
+    "all_stability_positive": true,
+    "law": "Compression is stable only when global transfer, accumulated phase, and extremal frequency mismatch pass simultaneously on an invariant port manifold."
+  },
+  "axisymmetric_2d": {
+    "count": 15,
+    "passes": 15,
+    "full_dofs": 1756,
+    "median_nodal_ports": 280.0,
+    "median_sentinels": 8.0,
+    "max_sentinels": 9,
+    "median_port_modes": 16.0,
+    "median_local_modes": 120.0,
+    "median_global_dofs": 134.0,
+    "min_global_dofs": 46,
+    "max_global_dofs": 276,
+    "median_reduction": 0.9236902050113895,
+    "min_reduction": 0.8428246013667426,
+    "max_delta": 0.9845398803189243,
+    "geomean_transfer": 0.0028962573993339025,
+    "geomean_surface": 0.0021340800407679615,
+    "geomean_energy": 0.004812345808128018,
+    "geomean_phase_deg": 0.07687438334249069,
+    "emergent_statement": "The stable 2D object is a frequency-closed dual manifold: a small response-informed interface basis coupled to nested local fixed-interface modes. Refining the physical mesh from 462 to 1756 DOFs increased median certified global states only to 134, preserving a 92.37% median reduction."
+  },
+  "triadic_3d": {
+    "count": 10,
+    "passes": 10,
+    "median_global_dofs": 249.5,
+    "median_reduction": 0.7883799830364716,
+    "median_port_modes": 29.0,
+    "median_local_modes": 225.0,
+    "max_delta": 0.9853122852197038,
+    "three_level_passes": {
+      "global_observable": 10,
+      "interface_manifold": 10,
+      "volume_physics": 10
+    },
+    "emergent_statement": "A 3D reduced model is stable only when hidden volume physics, interface transmission, and global mirror observables close simultaneously; each failing level owns a different enrichment action."
+  },
+  "observer_manifold": {
+    "base_global_dofs": 267,
+    "full_dofs": 1179,
+    "base_reduction": 0.7735368956743003,
+    "final_sentinel_count": 23,
+    "final": {
+      "acceptance": 1.0,
+      "max_delta": 0.6060323623010404,
+      "median_delta": 0.1196544894832922,
+      "observer_snapshot_scalars": 3772,
+      "emergent_statement": "When a nonlinear observer amplifies small state errors, stability can be restored by a sparse calibrated witness manifold without reopening the hidden volume. The observer manifold must itself be adversarially closed over frequency."
+    }
+  },
+  "temporal_4d": {
+    "floquet_max_relative_threshold_error": 0.0010700986556104405,
+    "duffing_validation_relative_error": 1.1088541685262453e-06,
+    "duffing_relative_error_up": 0.002051284996900985,
+    "duffing_relative_error_down": 0.01239478011638247,
+    "hysteresis_area_ratio": 0.9955543977413974,
+    "emergent": {
+      "principle": "observer coherence requires a memory state when cavity bandwidth is not large compared with mechanical frequency",
+      "stability_gate": "Floquet growth, nonlinear branch ambiguity, and optical-memory mismatch must be certified independently"
+    }
+  }
+}

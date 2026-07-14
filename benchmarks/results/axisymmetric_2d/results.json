@@ -1,0 +1,745 @@
+{
+  "method": "Fine 2D axisymmetric adversarially closed dual-manifold triadic bridge",
+  "certificate": {
+    "transfer_rel": 0.005,
+    "phase_deg": 0.5,
+    "worst_point": 0.05,
+    "surface_rel": 0.012,
+    "shape": 0.035,
+    "energy_rel": 0.06,
+    "energy_distribution": 0.035
+  },
+  "summary": {
+    "count": 15,
+    "passes": 15,
+    "full_dofs": 1756,
+    "median_nodal_ports": 280.0,
+    "median_sentinels": 8.0,
+    "max_sentinels": 9,
+    "median_port_modes": 16.0,
+    "median_local_modes": 120.0,
+    "median_global_dofs": 134.0,
+    "min_global_dofs": 46,
+    "max_global_dofs": 276,
+    "median_reduction": 0.9236902050113895,
+    "min_reduction": 0.8428246013667426,
+    "max_delta": 0.9845398803189243,
+    "geomean_transfer": 0.0028962573993339025,
+    "geomean_surface": 0.0021340800407679615,
+    "geomean_energy": 0.004812345808128018,
+    "geomean_phase_deg": 0.07687438334249069,
+    "emergent_statement": "The stable 2D object is a frequency-closed dual manifold: a small response-informed interface basis coupled to nested local fixed-interface modes. Refining the physical mesh from 462 to 1756 DOFs increased median certified global states only to 134, preserving a 92.37% median reduction."
+  },
+  "deterministic": [
+    {
+      "scenario": "nominal_local",
+      "description": "Nominal stack, bond and mirror; sub-resonant to first coupled modes",
+      "pass": true,
+      "full_dofs": 1756,
+      "elements": 832,
+      "nodal_ports": 280,
+      "sentinels": 8,
+      "sentinel_indices": [
+        0,
+        6,
+        11,
+        16,
+        22,
+        27,
+        28,
+        33
+      ],
+      "port_modes": 16,
+      "local_modes": 30,
+      "global_dofs": 46,
+      "reduction": 0.9738041002277904,
+      "delta": 0.8443898841445459,
+      "channels": {
+        "transfer_coherence": 0.8443898841445459,
+        "surface_geometry": 0.2865315547277528,
+        "energy_localization": 0.17432299716199065
+      },
+      "metrics": {
+        "transfer": 0.004221949420722729,
+        "phase_deg": 0.02140680246398527,
+        "point": 0.004804312245231845,
+        "surface_rel": 0.003438378656733034,
+        "shape": 0.00019308553367291173,
+        "energy_rel": 0.010459379829719439,
+        "energy_distribution": 0.0004715348633136813
+      },
+      "elapsed_s": 1.7998509407043457,
+      "history": [
+        {
+          "it": 0,
+          "sentinels": 7,
+          "p": 14,
+          "modes": 20,
+          "dofs": 34,
+          "delta": 1.0341571415415867
+        },
+        {
+          "it": 1,
+          "sentinels": 8,
+          "p": 16,
+          "modes": 30,
+          "dofs": 46,
+          "delta": 0.8443898841445459
+        }
+      ],
+      "kind": "deterministic"
+    },
+    {
+      "scenario": "nominal_broadband",
+      "description": "Nominal geometry across broadband radial/axial modes",
+      "pass": true,
+      "full_dofs": 1756,
+      "elements": 832,
+      "nodal_ports": 280,
+      "sentinels": 7,
+      "sentinel_indices": [
+        0,
+        7,
+        14,
+        20,
+        27,
+        34,
+        41
+      ],
+      "port_modes": 14,
+      "local_modes": 105,
+      "global_dofs": 119,
+      "reduction": 0.9322323462414579,
+      "delta": 0.8214640152643982,
+      "channels": {
+        "transfer_coherence": 0.8214640152643982,
+        "surface_geometry": 0.17528395225076324,
+        "energy_localization": 0.16654170602150203
+      },
+      "metrics": {
+        "transfer": 0.004107320076321991,
+        "phase_deg": 0.146570578431961,
+        "point": 0.0380415092215324,
+        "surface_rel": 0.0021034074270091588,
+        "shape": 0.0008307721246059311,
+        "energy_rel": 0.009992502361290121,
+        "energy_distribution": 0.0006335154728147464
+      },
+      "elapsed_s": 2.0154881477355957,
+      "history": [
+        {
+          "it": 0,
+          "sentinels": 7,
+          "p": 14,
+          "modes": 105,
+          "dofs": 119,
+          "delta": 0.8214640152643982
+        }
+      ],
+      "kind": "deterministic"
+    },
+    {
+      "scenario": "soft_bond",
+      "description": "Compliant bond emphasizes interface shear and mirror shape",
+      "pass": true,
+      "full_dofs": 1756,
+      "elements": 832,
+      "nodal_ports": 280,
+      "sentinels": 7,
+      "sentinel_indices": [
+        0,
+        6,
+        12,
+        18,
+        25,
+        31,
+        37
+      ],
+      "port_modes": 14,
+      "local_modes": 60,
+      "global_dofs": 74,
+      "reduction": 0.9578587699316629,
+      "delta": 0.5387395827982838,
+      "channels": {
+        "transfer_coherence": 0.5387395827982838,
+        "surface_geometry": 0.17296680556528124,
+        "energy_localization": 0.06937068863994549
+      },
+      "metrics": {
+        "transfer": 0.002693697913991419,
+        "phase_deg": 0.03024933771253616,
+        "point": 0.012298158129737087,
+        "surface_rel": 0.002075601666783375,
+        "shape": 0.0005337495226502279,
+        "energy_rel": 0.004162241318396729,
+        "energy_distribution": 0.0008000951879955384
+      },
+      "elapsed_s": 1.6608567237854004,
+      "history": [
+        {
+          "it": 0,
+          "sentinels": 7,
+          "p": 14,
+          "modes": 60,
+          "dofs": 74,
+          "delta": 0.5387395827982838
+        }
+      ],
+      "kind": "deterministic"
+    },
+    {
+      "scenario": "thin_mirror",
+      "description": "Thin compliant mirror emphasizes radial deformation",
+      "pass": true,
+      "full_dofs": 1756,
+      "elements": 832,
+      "nodal_ports": 280,
+      "sentinels": 8,
+      "sentinel_indices": [
+        0,
+        6,
+        13,
+        20,
+        26,
+        32,
+        37,
+        39
+      ],
+      "port_modes": 16,
+      "local_modes": 55,
+      "global_dofs": 71,
+      "reduction": 0.9595671981776766,
+      "delta": 0.8486802916409532,
+      "channels": {
+        "transfer_coherence": 0.8486802916409532,
+        "surface_geometry": 0.307577208064205,
+        "energy_localization": 0.13576194272127515
+      },
+      "metrics": {
+        "transfer": 0.004243401458204766,
+        "phase_deg": 0.033792680837044516,
+        "point": 0.018043730710955424,
+        "surface_rel": 0.0036909264967704605,
+        "shape": 0.0004201197754487834,
+        "energy_rel": 0.008145716563276508,
+        "energy_distribution": 0.0015096331102162736
+      },
+      "elapsed_s": 2.0442850589752197,
+      "history": [
+        {
+          "it": 0,
+          "sentinels": 7,
+          "p": 14,
+          "modes": 15,
+          "dofs": 29,
+          "delta": 2.554897790420581
+        },
+        {
+          "it": 1,
+          "sentinels": 8,
+          "p": 16,
+          "modes": 55,
+          "dofs": 71,
+          "delta": 0.8486802916409532
+        }
+      ],
+      "kind": "deterministic"
+    },
+    {
+      "scenario": "wide_mirror",
+      "description": "Larger overhang increases radial mode complexity",
+      "pass": true,
+      "full_dofs": 1756,
+      "elements": 832,
+      "nodal_ports": 280,
+      "sentinels": 8,
+      "sentinel_indices": [
+        0,
+        6,
+        13,
+        20,
+        26,
+        32,
+        38,
+        39
+      ],
+      "port_modes": 16,
+      "local_modes": 55,
+      "global_dofs": 71,
+      "reduction": 0.9595671981776766,
+      "delta": 0.5010637641095654,
+      "channels": {
+        "transfer_coherence": 0.5010637641095654,
+        "surface_geometry": 0.14442199330602679,
+        "energy_localization": 0.08940754056339235
+      },
+      "metrics": {
+        "transfer": 0.0025053188205478275,
+        "phase_deg": 0.24880956375400068,
+        "point": 0.021090859216338777,
+        "surface_rel": 0.0017330639196723213,
+        "shape": 0.001684467723935846,
+        "energy_rel": 0.005364452433803541,
+        "energy_distribution": 0.0006372320595627374
+      },
+      "elapsed_s": 2.3804731369018555,
+      "history": [
+        {
+          "it": 0,
+          "sentinels": 7,
+          "p": 14,
+          "modes": 55,
+          "dofs": 69,
+          "delta": 3.6427863339779085
+        },
+        {
+          "it": 1,
+          "sentinels": 8,
+          "p": 16,
+          "modes": 55,
+          "dofs": 71,
+          "delta": 0.5010637641095654
+        }
+      ],
+      "kind": "deterministic"
+    }
+  ],
+  "holdout": [
+    {
+      "scenario": "random_00",
+      "pass": true,
+      "full_dofs": 1756,
+      "nodal_ports": 280,
+      "sentinels": 7,
+      "port_modes": 14,
+      "local_modes": 60,
+      "global_dofs": 74,
+      "reduction": 0.9578587699316629,
+      "delta": 0.9845398803189243,
+      "channels": {
+        "transfer_coherence": 0.9845398803189243,
+        "surface_geometry": 0.3429695532768634,
+        "energy_localization": 0.1396613293815991
+      },
+      "metrics": {
+        "transfer": 0.004922699401594621,
+        "phase_deg": 0.07737972659692384,
+        "point": 0.02755985676716685,
+        "surface_rel": 0.004115634639322361,
+        "shape": 0.0002810884337978294,
+        "energy_rel": 0.008379679762895945,
+        "energy_distribution": 0.0006010870250986964
+      },
+      "elapsed_s": 1.9815638065338135,
+      "history": [
+        {
+          "it": 0,
+          "sentinels": 7,
+          "p": 14,
+          "modes": 60,
+          "dofs": 74,
+          "delta": 0.9845398803189243
+        }
+      ],
+      "kind": "holdout"
+    },
+    {
+      "scenario": "random_01",
+      "pass": true,
+      "full_dofs": 1756,
+      "nodal_ports": 280,
+      "sentinels": 7,
+      "port_modes": 14,
+      "local_modes": 120,
+      "global_dofs": 134,
+      "reduction": 0.9236902050113895,
+      "delta": 0.2973644005465586,
+      "channels": {
+        "transfer_coherence": 0.2973644005465586,
+        "surface_geometry": 0.09182237429754073,
+        "energy_localization": 0.03099956390067703
+      },
+      "metrics": {
+        "transfer": 0.001486822002732793,
+        "phase_deg": 0.021108584779733774,
+        "point": 0.008888717798047445,
+        "surface_rel": 0.0011018684915704887,
+        "shape": 0.000939762238342006,
+        "energy_rel": 0.0018599738340406217,
+        "energy_distribution": 0.000744734468435467
+      },
+      "elapsed_s": 2.261387586593628,
+      "history": [
+        {
+          "it": 0,
+          "sentinels": 7,
+          "p": 14,
+          "modes": 120,
+          "dofs": 134,
+          "delta": 0.2973644005465586
+        }
+      ],
+      "kind": "holdout"
+    },
+    {
+      "scenario": "random_02",
+      "pass": true,
+      "full_dofs": 1756,
+      "nodal_ports": 280,
+      "sentinels": 8,
+      "port_modes": 16,
+      "local_modes": 260,
+      "global_dofs": 276,
+      "reduction": 0.8428246013667426,
+      "delta": 0.5772075847111049,
+      "channels": {
+        "transfer_coherence": 0.5772075847111049,
+        "surface_geometry": 0.11863898383675549,
+        "energy_localization": 0.03400772549404531
+      },
+      "metrics": {
+        "transfer": 0.0028860379235555247,
+        "phase_deg": 0.22916173403836598,
+        "point": 0.01702095960899373,
+        "surface_rel": 0.001423667806041066,
+        "shape": 0.00023517805125296886,
+        "energy_rel": 0.0020404635296427183,
+        "energy_distribution": 0.0001632233603656059
+      },
+      "elapsed_s": 5.167038440704346,
+      "history": [
+        {
+          "it": 0,
+          "sentinels": 7,
+          "p": 14,
+          "modes": 100,
+          "dofs": 114,
+          "delta": 2.40536388952843
+        },
+        {
+          "it": 1,
+          "sentinels": 8,
+          "p": 16,
+          "modes": 260,
+          "dofs": 276,
+          "delta": 0.5772075847111049
+        }
+      ],
+      "kind": "holdout"
+    },
+    {
+      "scenario": "random_03",
+      "pass": true,
+      "full_dofs": 1756,
+      "nodal_ports": 280,
+      "sentinels": 7,
+      "port_modes": 14,
+      "local_modes": 120,
+      "global_dofs": 134,
+      "reduction": 0.9236902050113895,
+      "delta": 0.35865333374607333,
+      "channels": {
+        "transfer_coherence": 0.35865333374607333,
+        "surface_geometry": 0.13223768431823793,
+        "energy_localization": 0.07287303529330476
+      },
+      "metrics": {
+        "transfer": 0.0017932666687303668,
+        "phase_deg": 0.07621654621078568,
+        "point": 0.009976088392981303,
+        "surface_rel": 0.0015868522118188551,
+        "shape": 0.00018411265057449185,
+        "energy_rel": 0.0043723821175982855,
+        "energy_distribution": 0.00048127105433149766
+      },
+      "elapsed_s": 2.208301067352295,
+      "history": [
+        {
+          "it": 0,
+          "sentinels": 7,
+          "p": 14,
+          "modes": 120,
+          "dofs": 134,
+          "delta": 0.35865333374607333
+        }
+      ],
+      "kind": "holdout"
+    },
+    {
+      "scenario": "random_04",
+      "pass": true,
+      "full_dofs": 1756,
+      "nodal_ports": 280,
+      "sentinels": 8,
+      "port_modes": 16,
+      "local_modes": 150,
+      "global_dofs": 166,
+      "reduction": 0.9054669703872438,
+      "delta": 0.9002701180003014,
+      "channels": {
+        "transfer_coherence": 0.9002701180003014,
+        "surface_geometry": 0.36852030230601074,
+        "energy_localization": 0.05329079025510481
+      },
+      "metrics": {
+        "transfer": 0.004501350590001507,
+        "phase_deg": 0.18858940993209752,
+        "point": 0.00504815450742858,
+        "surface_rel": 0.004422243627672129,
+        "shape": 6.113264344711799e-05,
+        "energy_rel": 0.0031974474153062885,
+        "energy_distribution": 0.00012462521854395835
+      },
+      "elapsed_s": 3.3342511653900146,
+      "history": [
+        {
+          "it": 0,
+          "sentinels": 7,
+          "p": 14,
+          "modes": 55,
+          "dofs": 69,
+          "delta": 2.6438866867062174
+        },
+        {
+          "it": 1,
+          "sentinels": 8,
+          "p": 16,
+          "modes": 150,
+          "dofs": 166,
+          "delta": 0.9002701180003014
+        }
+      ],
+      "kind": "holdout"
+    },
+    {
+      "scenario": "random_05",
+      "pass": true,
+      "full_dofs": 1756,
+      "nodal_ports": 280,
+      "sentinels": 7,
+      "port_modes": 14,
+      "local_modes": 195,
+      "global_dofs": 209,
+      "reduction": 0.8809794988610479,
+      "delta": 0.3242371713992754,
+      "channels": {
+        "transfer_coherence": 0.3242371713992754,
+        "surface_geometry": 0.09860152044656169,
+        "energy_localization": 0.04727711200223703
+      },
+      "metrics": {
+        "transfer": 0.0016211858569963769,
+        "phase_deg": 0.0952629576888376,
+        "point": 0.011661329596683768,
+        "surface_rel": 0.0011832182453587403,
+        "shape": 0.0004978050046843251,
+        "energy_rel": 0.002836626720134222,
+        "energy_distribution": 0.0012050681254806273
+      },
+      "elapsed_s": 3.1985933780670166,
+      "history": [
+        {
+          "it": 0,
+          "sentinels": 7,
+          "p": 14,
+          "modes": 195,
+          "dofs": 209,
+          "delta": 0.3242371713992754
+        }
+      ],
+      "kind": "holdout"
+    },
+    {
+      "scenario": "random_06",
+      "pass": true,
+      "full_dofs": 1756,
+      "nodal_ports": 280,
+      "sentinels": 7,
+      "port_modes": 14,
+      "local_modes": 260,
+      "global_dofs": 274,
+      "reduction": 0.8439635535307517,
+      "delta": 0.7742660966166236,
+      "channels": {
+        "transfer_coherence": 0.7742660966166236,
+        "surface_geometry": 0.2175132644124814,
+        "energy_localization": 0.12830617610830233
+      },
+      "metrics": {
+        "transfer": 0.0038713304830831183,
+        "phase_deg": 0.15451720186619122,
+        "point": 0.008355659998161674,
+        "surface_rel": 0.002610159172949777,
+        "shape": 3.154009766669579e-05,
+        "energy_rel": 0.0076983705664981405,
+        "energy_distribution": 0.0002312788310739868
+      },
+      "elapsed_s": 3.6630566120147705,
+      "history": [
+        {
+          "it": 0,
+          "sentinels": 7,
+          "p": 14,
+          "modes": 260,
+          "dofs": 274,
+          "delta": 0.7742660966166236
+        }
+      ],
+      "kind": "holdout"
+    },
+    {
+      "scenario": "random_07",
+      "pass": true,
+      "full_dofs": 1756,
+      "nodal_ports": 280,
+      "sentinels": 9,
+      "port_modes": 16,
+      "local_modes": 215,
+      "global_dofs": 231,
+      "reduction": 0.8684510250569476,
+      "delta": 0.5057409692615602,
+      "channels": {
+        "transfer_coherence": 0.5057409692615602,
+        "surface_geometry": 0.13012851374611598,
+        "energy_localization": 0.049297552490030254
+      },
+      "metrics": {
+        "transfer": 0.0025287048463078013,
+        "phase_deg": 0.12925328037614034,
+        "point": 0.010542797886148408,
+        "surface_rel": 0.0015615421649533916,
+        "shape": 0.00037423770397885105,
+        "energy_rel": 0.002957853149401815,
+        "energy_distribution": 0.0006213311281199011
+      },
+      "elapsed_s": 8.539736270904541,
+      "history": [
+        {
+          "it": 0,
+          "sentinels": 7,
+          "p": 14,
+          "modes": 210,
+          "dofs": 224,
+          "delta": 59.29953725630981
+        },
+        {
+          "it": 1,
+          "sentinels": 8,
+          "p": 16,
+          "modes": 220,
+          "dofs": 236,
+          "delta": 3.037635610411136
+        },
+        {
+          "it": 2,
+          "sentinels": 9,
+          "p": 16,
+          "modes": 215,
+          "dofs": 231,
+          "delta": 0.5057409692615602
+        }
+      ],
+      "kind": "holdout"
+    },
+    {
+      "scenario": "random_08",
+      "pass": true,
+      "full_dofs": 1756,
+      "nodal_ports": 280,
+      "sentinels": 9,
+      "port_modes": 16,
+      "local_modes": 100,
+      "global_dofs": 116,
+      "reduction": 0.9339407744874715,
+      "delta": 0.8269525338542952,
+      "channels": {
+        "transfer_coherence": 0.8269525338542952,
+        "surface_geometry": 0.31440066144082635,
+        "energy_localization": 0.12328077279621656
+      },
+      "metrics": {
+        "transfer": 0.004134762669271476,
+        "phase_deg": 0.09079044210595341,
+        "point": 0.010150623390202904,
+        "surface_rel": 0.0037728079372899162,
+        "shape": 0.0002841334594621859,
+        "energy_rel": 0.007396846367772994,
+        "energy_distribution": 0.0002088375113171033
+      },
+      "elapsed_s": 4.218137979507446,
+      "history": [
+        {
+          "it": 0,
+          "sentinels": 7,
+          "p": 14,
+          "modes": 65,
+          "dofs": 79,
+          "delta": 1.3340752395970508
+        },
+        {
+          "it": 1,
+          "sentinels": 8,
+          "p": 16,
+          "modes": 105,
+          "dofs": 121,
+          "delta": 1.0225339972745275
+        },
+        {
+          "it": 2,
+          "sentinels": 9,
+          "p": 16,
+          "modes": 100,
+          "dofs": 116,
+          "delta": 0.8269525338542952
+        }
+      ],
+      "kind": "holdout"
+    },
+    {
+      "scenario": "random_09",
+      "pass": true,
+      "full_dofs": 1756,
+      "nodal_ports": 280,
+      "sentinels": 8,
+      "port_modes": 16,
+      "local_modes": 150,
+      "global_dofs": 166,
+      "reduction": 0.9054669703872438,
+      "delta": 0.3046463137579694,
+      "channels": {
+        "transfer_coherence": 0.3046463137579694,
+        "surface_geometry": 0.09130689392611895,
+        "energy_localization": 0.07096271073768855
+      },
+      "metrics": {
+        "transfer": 0.0015232315687898471,
+        "phase_deg": 0.026094135325400843,
+        "point": 0.009426106490430974,
+        "surface_rel": 0.0010956827271134274,
+        "shape": 0.00023536288195892758,
+        "energy_rel": 0.004257762644261313,
+        "energy_distribution": 0.00019915387365660733
+      },
+      "elapsed_s": 3.1534736156463623,
+      "history": [
+        {
+          "it": 0,
+          "sentinels": 7,
+          "p": 14,
+          "modes": 20,
+          "dofs": 34,
+          "delta": 3.170557781915128
+        },
+        {
+          "it": 1,
+          "sentinels": 8,
+          "p": 16,
+          "modes": 150,
+          "dofs": 166,
+          "delta": 0.3046463137579694
+        }
+      ],
+      "kind": "holdout"
+    }
+  ]
+}

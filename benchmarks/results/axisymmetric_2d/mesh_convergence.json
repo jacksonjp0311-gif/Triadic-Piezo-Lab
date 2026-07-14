@@ -1,0 +1,22 @@
+{
+  "rows": [
+    {
+      "scenario": "nominal_local",
+      "level2_dofs": 1756,
+      "level3_dofs": 3882,
+      "tip_transfer_rel": 0.009793210944233924,
+      "phase_rms_deg": 0.060538661084239165,
+      "surface_rel": 0.07374480859455623,
+      "energy_rel": 0.024891300486510667
+    },
+    {
+      "scenario": "nominal_broadband",
+      "level2_dofs": 1756,
+      "level3_dofs": 3882,
+      "tip_transfer_rel": 0.019008023492476007,
+      "phase_rms_deg": 0.7243193677222715,
+      "surface_rel": 0.14501425843947796,
+      "energy_rel": 0.04791648347570167
+    }
+  ]
+}
