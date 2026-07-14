@@ -12,6 +12,8 @@
 **Release:** Evolution 8 — Classic Cinematic Evidence Package  
 **Date:** July 2026
 
+<img width="1550" height="736" alt="image" src="https://github.com/user-attachments/assets/0c435570-26ec-4b61-898e-1ceb225c95f6" />
+
 ---
 
 ## Open the laboratory
